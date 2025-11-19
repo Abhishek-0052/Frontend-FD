@@ -1,4 +1,4 @@
-/* === GLOBAL VARIABLES === */
+
 :root {
   --primary: #1e1e2f;
   --secondary: #ffffff;
@@ -13,14 +13,14 @@
   --font-secondary: 'Playfair Display', serif;
 }
 
-/* === RESET === */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* === BASE STYLES === */
+
 body {
   font-family: var(--font-primary);
   background-color: var(--bg-light);
@@ -38,7 +38,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* === HEADER === */
+
 #about-header {
   background-color: var(--primary);
   color: var(--secondary);
@@ -59,7 +59,7 @@ a:hover {
   font-size: 1.1rem;
 }
 
-/* === NAVIGATION === */
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -102,14 +102,14 @@ a:hover {
   cursor: pointer;
 }
 
-/* === CONTAINER === */
+
 .container {
   max-width: 1140px;
   padding: 2rem 1rem;
   margin: auto;
 }
 
-/* === SECTION STYLES === */
+
 .section {
   margin-bottom: 3rem;
 }
@@ -121,7 +121,7 @@ a:hover {
   margin-bottom: 1.5rem;
 }
 
-/* === CARD STYLE === */
+
 .card {
   background-color: var(--card-bg);
   border-radius: var(--border-radius);
@@ -135,14 +135,14 @@ a:hover {
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12);
 }
 
-/* === LEAD PARAGRAPH === */
+
 .lead {
   font-size: 1.1rem;
   color: #333;
   margin-bottom: 1rem;
 }
 
-/* === VALUES LIST === */
+
 .values {
   list-style: none;
   margin-top: 1rem;
@@ -163,7 +163,7 @@ a:hover {
   color: var(--accent);
 }
 
-/* === BLOCKQUOTE === */
+
 blockquote {
   border-left: 4px solid var(--accent);
   padding-left: 1rem;
@@ -175,7 +175,7 @@ blockquote {
   border-radius: 8px;
 }
 
-/* === TEAM SECTION === */
+
 .team {
   display: flex;
   gap: 2rem;
@@ -215,7 +215,7 @@ blockquote {
   font-size: 0.9rem;
 }
 
-/* === CTA (Call to Action) === */
+
 .cta {
   background-color: var(--primary);
   color: var(--secondary);
@@ -254,7 +254,7 @@ blockquote {
   background-color: #4e5cd4;
 }
 
-/* === FOOTER === */
+
 footer {
   text-align: center;
   padding: 1rem;
@@ -263,7 +263,7 @@ footer {
   color: var(--muted);
 }
 
-/* === RESPONSIVE STYLES === */
+
 @media (max-width: 768px) {
   .team {
     flex-direction: column;
