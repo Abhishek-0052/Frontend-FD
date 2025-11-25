@@ -1,3 +1,6 @@
+<!-- Task 2: Live Character Counter
+Objective: Practice real-time DOM updates.-->
+
 <!doctype html>
 <html lang="en">
 <head>
